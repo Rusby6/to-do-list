@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    color: teal;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+#form-tarea {
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#tarea {
+    flex: 1;
+    height: 56px;
+    font-size: 1.2em;
+    padding: 0 20px;
+    border: 2px solid brown;
+    border-right: none;
+    outline: none;
+    color: #333;
+}
+
+#mas {
+    width: 80px;
+    height: 56px;
+    font-size: 2em;
+    color: white;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#mas:hover {
+    background-color: #8b4513;
+}
+
+#lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+#lista li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.texto-tarea {
+    font-size: 1.3em;
+    color: teal;
+    cursor: pointer;
+    flex: 1;
+    padding: 5px 0;
+}
+
+.texto-tarea:hover {
+    color: #006666;
+}
+
+.btn-eliminar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    #tarea {
+        font-size: 1em;
+        height: 50px;
+        padding: 0 15px;
+    }
+    
+    #mas {
+        width: 60px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+    
+    .texto-tarea {
+        font-size: 1.1em;
+    }
+    
+    .btn-eliminar {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
