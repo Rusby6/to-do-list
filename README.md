@@ -32,7 +32,7 @@ gestionar tareas pendientes con funcionalidades básicas de organización.
 
 ## 📁 Estructura del proyecto
 ```text
-lista-tareas/
+to-do-list/
 ├── index.html      # Estructura principal y formulario
 ├── style.css       # Estilos y diseño responsive
 ├── script.js       # Lógica de gestión de tareas
@@ -43,12 +43,12 @@ lista-tareas/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/lista-tareas
+git clone https://github.com/Rusby6/to-do-list
 ```
 2. Accede al directorio del proyecto:
 
 ```bash
-cd lista-tareas
+cd to-do-list
 ```
 3. Abre el archivo index.html en tu navegador.
 
