@@ -10,11 +10,7 @@ gestionar tareas pendientes con funcionalidades básicas de organización.
 - Marcar como prioridad: Hacer clic en una tarea para moverla al principio
 - Eliminar tareas: Botón específico para remover tareas completadas o no deseadas
 - Interfaz limpia: Diseño minimalista con colores bien definidos
-- Diseño responsive: Adaptable a dispositivos móviles y tabletas
 - Efectos visuales:
-- Animaciones suaves al hover
-- Transiciones en los botones
-- Sombreado para profundidad visual
 - Validación: Previene añadir tareas vacías
 
 ## 🛠️ Tecnologías utilizadas
