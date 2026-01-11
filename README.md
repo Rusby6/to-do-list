@@ -39,7 +39,7 @@ to-do-list/
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/Rusby6/to-do-list
+git clone https://github.com/Rusby6/to-do-list.git
 ```
 2. Accede al directorio del proyecto:
 
